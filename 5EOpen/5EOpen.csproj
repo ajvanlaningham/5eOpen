@@ -49,6 +49,14 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\NavIcons\gear.svg" />
+	  <None Remove="Resources\Images\NavIcons\hourglass.svg" />
+	  <None Remove="Resources\Images\NavIcons\house.svg" />
+	  <None Remove="Resources\Images\NavIcons\magic.svg" />
+	  <None Remove="Resources\Images\NavIcons\monster.svg" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
 	</ItemGroup>
 
@@ -68,7 +76,16 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Folder Include="Models\" />
 	  <Folder Include="Services\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiImage Include="Resources\Images\NavIcons\gear.svg" />
+	  <MauiImage Include="Resources\Images\NavIcons\hourglass.svg" />
+	  <MauiImage Include="Resources\Images\NavIcons\house.svg" />
+	  <MauiImage Include="Resources\Images\NavIcons\magic.svg" />
+	  <MauiImage Include="Resources\Images\NavIcons\monster.svg" />
 	</ItemGroup>
 
 </Project>
