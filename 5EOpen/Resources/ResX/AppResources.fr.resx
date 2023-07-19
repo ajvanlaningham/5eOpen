@@ -118,18 +118,18 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Counter" xml:space="preserve">
-    <value>Clicked {0} times</value>
+    <value>Cliqué {0} fois</value>
   </data>
   <data name="HelloWorld" xml:space="preserve">
-    <value>O brave new world, that has such monsters in 't!</value>
+    <value>Ô nouveau monde audacieux, qui renferme de tels monstres !</value>
   </data>
   <data name="ToDoInitiative" xml:space="preserve">
-    <value>You are not currently in combat</value>
+    <value>Vous n'êtes pas actuellement en combat</value>
   </data>
   <data name="ToDoMonsters" xml:space="preserve">
-    <value>Nothing seems to be in here... roll for perception</value>
+    <value>Rien ne semble être ici... lancez le dé de perception</value>
   </data>
   <data name="ToDoSpells" xml:space="preserve">
-    <value>I cast... Invisibility?</value>
+    <value>Je Lance... l'invisibilité</value>
   </data>
 </root>

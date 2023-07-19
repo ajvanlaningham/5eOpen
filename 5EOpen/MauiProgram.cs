@@ -24,6 +24,7 @@ public static class MauiProgram
 
 #if DEBUG
 		builder.Logging.AddDebug();
+		builder.Services.AddTransient<MainPage>();
 #endif
 
 		return builder.Build();
