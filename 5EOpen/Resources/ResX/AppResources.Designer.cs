@@ -59,5 +59,14 @@ namespace _5EOpen.Resources.ResX {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to What brave new world, that has such people in it!.
+        /// </summary>
+        internal static string HelloWorld {
+            get {
+                return ResourceManager.GetString("HelloWorld", resourceCulture);
+            }
+        }
     }
 }
