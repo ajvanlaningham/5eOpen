@@ -21,7 +21,7 @@
                     HorizontalOptions="Center"
                     HorizontalTextAlignment="Center"
                     FontSize="Large"
-                    Text="Settings or something Maybe I'll put an icon in here"/>
+                    Text="Settings or something"/>
             </StackLayout>
 
             <StackLayout

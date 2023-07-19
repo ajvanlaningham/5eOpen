@@ -59,6 +59,7 @@
 	<ItemGroup>
 		<PackageReference Include="LocalizationResourceManager.Maui" Version="1.0.4" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
+		<PackageReference Include="Refractored.MvvmHelpers" Version="1.6.2" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -89,6 +90,7 @@
 	  <Folder Include="Converters\" />
 	  <Folder Include="Models\" />
 	  <Folder Include="Services\" />
+	  <Folder Include="ViewModels\Controls\" />
 	</ItemGroup>
 
 	<ItemGroup>

@@ -31,7 +31,7 @@
 
         </Tab>
     </TabBar>
-
+ 
     <!--<ShellContent
         Title="Home"
         ContentTemplate="{DataTemplate local:MainPage}"
