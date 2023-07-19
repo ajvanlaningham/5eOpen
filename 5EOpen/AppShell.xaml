@@ -4,6 +4,7 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:_5EOpen"
+    xmlns:navPages="clr-namespace:_5EOpen.Pages.NavPages"
     Shell.FlyoutBehavior="Disabled"
     BackgroundColor="AliceBlue">
 
@@ -13,19 +14,19 @@
                       Route="MainPage"/>
         </Tab>
         <Tab Title="Monsters" Icon="NavIcons/monster.png">
-            <ShellContent ContentTemplate="{DataTemplate local:MainPage}"
+            <ShellContent ContentTemplate="{DataTemplate navPages:Monsters}"
                           Route="MainPage"/>
         </Tab>
         <Tab Title="Spells" Icon="NavIcons/magic.png">
-            <ShellContent ContentTemplate="{DataTemplate local:MainPage}"
+            <ShellContent ContentTemplate="{DataTemplate navPages:Spells}"
                           Route="MainPage"/>
         </Tab>
         <Tab Title="Initiative" Icon="NavIcons/hourglass.png">
-            <ShellContent ContentTemplate="{DataTemplate local:MainPage}"
+            <ShellContent ContentTemplate="{DataTemplate navPages:Initiative}"
                           Route="MainPage"/>
         </Tab>
         <Tab Title="Settings" Icon="NavIcons/gear.png">
-            <ShellContent ContentTemplate="{DataTemplate local:MainPage}"
+            <ShellContent ContentTemplate="{DataTemplate navPages:Settings}"
                           Route="MainPage"/>
 
         </Tab>
