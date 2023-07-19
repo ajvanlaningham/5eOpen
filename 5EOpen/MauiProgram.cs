@@ -1,4 +1,6 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using _5EOpen.Resources.ResX;
+using LocalizationResourceManager.Maui;
+using Microsoft.Extensions.Logging;
 
 namespace _5EOpen;
 
@@ -9,6 +11,11 @@ public static class MauiProgram
 		var builder = MauiApp.CreateBuilder();
 		builder
 			.UseMauiApp<App>()
+			.UseLocalizationResourceManager(settings =>
+			{
+				settings.RestoreLatestCulture(true);
+				settings.AddResource(AppResources.ResourceManager);
+			})
 			.ConfigureFonts(fonts =>
 			{
 				fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
@@ -17,6 +24,7 @@ public static class MauiProgram
 
 #if DEBUG
 		builder.Logging.AddDebug();
+		builder.Services.AddTransient<MainPage>();
 #endif
 
 		return builder.Build();
