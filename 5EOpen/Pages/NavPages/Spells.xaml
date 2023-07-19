@@ -6,7 +6,7 @@
              Title="Spells">
     <VerticalStackLayout>
         <Label 
-            Text="To Do: Spells"
+            Text="{loc:Translate ToDoSpells}"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
     </VerticalStackLayout>

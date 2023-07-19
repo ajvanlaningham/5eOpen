@@ -6,7 +6,7 @@
              Title="Monsters">
     <VerticalStackLayout>
         <Label 
-            Text="Monster Manual. Like a pokedex but even nerdier!"
+            Text="{loc:Translate ToDoMonsters}"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
     </VerticalStackLayout>

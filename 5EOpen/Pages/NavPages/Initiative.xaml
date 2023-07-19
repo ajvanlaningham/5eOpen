@@ -6,7 +6,7 @@
              Title="Initiative">
     <VerticalStackLayout>
         <Label 
-            Text="To Do: Initiative tracker"
+            Text="{loc:Translate ToDoInitiative}"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
     </VerticalStackLayout>

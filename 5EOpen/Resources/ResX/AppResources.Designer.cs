@@ -61,11 +61,38 @@ namespace _5EOpen.Resources.ResX {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to What brave new world, that has such people in it!.
+        ///   Looks up a localized string similar to O brave new world, that has such monsters in &apos;t!.
         /// </summary>
         internal static string HelloWorld {
             get {
                 return ResourceManager.GetString("HelloWorld", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to You are not currently in combat.
+        /// </summary>
+        internal static string ToDoInitiative {
+            get {
+                return ResourceManager.GetString("ToDoInitiative", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Nothing seems to be in here... roll for perception.
+        /// </summary>
+        internal static string ToDoMonsters {
+            get {
+                return ResourceManager.GetString("ToDoMonsters", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to I cast... Invisibility?.
+        /// </summary>
+        internal static string ToDoSpells {
+            get {
+                return ResourceManager.GetString("ToDoSpells", resourceCulture);
             }
         }
     }
