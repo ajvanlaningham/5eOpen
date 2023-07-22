@@ -123,6 +123,10 @@
   <data name="HelloWorld" xml:space="preserve">
     <value>O brave new world, that has such monsters in 't!</value>
   </data>
+  <data name="SettingsPage_DisplayCard" xml:space="preserve">
+    <value>Display</value>
+    <comment>Testing</comment>
+  </data>
   <data name="ToDoInitiative" xml:space="preserve">
     <value>You are not currently in combat</value>
   </data>

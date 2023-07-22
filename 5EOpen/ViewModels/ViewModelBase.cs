@@ -1,16 +1,26 @@
-﻿using MvvmHelpers;
+﻿using LocalizationResourceManager.Maui;
+using MvvmHelpers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
-using Windows.Networking.Vpn;
+
 
 namespace _5EOpen.ViewModels
 {
     public class ViewModelBase : BaseViewModel
     {
+        Converters.TranslateExtension _translateExtension;
+        ILocalizationResourceManager _localizationResourceManager;
+
+        public ViewModelBase(ILocalizationResourceManager localizationResourceManager)
+        {
+            _localizationResourceManager = localizationResourceManager;
+            _translateExtension = new Converters.TranslateExtension(_localizationResourceManager);
+        }
+
         bool _canNavigate = true;
 
         public bool CanNavigate

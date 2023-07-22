@@ -1,4 +1,6 @@
-﻿using _5EOpen.Resources.ResX;
+﻿using _5EOpen.Pages.NavPages;
+using _5EOpen.Resources.ResX;
+using _5EOpen.ViewModels;
 using LocalizationResourceManager.Maui;
 using Microsoft.Extensions.Logging;
 
@@ -25,6 +27,8 @@ public static class MauiProgram
 #if DEBUG
 		builder.Logging.AddDebug();
 		builder.Services.AddTransient<MainPage>();
+		builder.Services.AddTransient<TranslateExtension>();
+		builder.Services.AddTransient<ViewModelBase>();
 #endif
 
 		return builder.Build();
