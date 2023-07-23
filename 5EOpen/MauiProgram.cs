@@ -1,8 +1,10 @@
-﻿using _5EOpen.Pages.NavPages;
+﻿using _5EOpen.Pages;
+using _5EOpen.Pages.NavPages;
 using _5EOpen.Resources.ResX;
 using _5EOpen.ViewModels;
 using LocalizationResourceManager.Maui;
 using Microsoft.Extensions.Logging;
+using System.Reflection.Metadata;
 
 namespace _5EOpen;
 
@@ -28,6 +30,7 @@ public static class MauiProgram
 		builder.Logging.AddDebug();
 		builder.Services.AddTransient<MainPage>();
 		builder.Services.AddTransient<Settings>();
+		builder.Services.AddTransient<AppSettingsPage>();
 		
 		
 #endif
