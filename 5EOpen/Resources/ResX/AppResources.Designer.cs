@@ -79,6 +79,24 @@ namespace _5EOpen.Resources.ResX {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Display.
+        /// </summary>
+        internal static string SettingsPage_DisplayCard {
+            get {
+                return ResourceManager.GetString("SettingsPage_DisplayCard", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Language.
+        /// </summary>
+        internal static string SettingsPage_LanguageCard {
+            get {
+                return ResourceManager.GetString("SettingsPage_LanguageCard", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to You are not currently in combat.
         /// </summary>
         internal static string ToDoInitiative {

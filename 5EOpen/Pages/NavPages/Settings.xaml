@@ -21,19 +21,21 @@
                     HorizontalOptions="Center"
                     HorizontalTextAlignment="Center"
                     FontSize="Large"
-                    Text="Settings or something Maybe I'll put an icon in here"/>
+                    Text="Settings or something"/>
             </StackLayout>
 
             <StackLayout
                 Grid.Row="1">
                 <BoxView HeightRequest="1"
                          Color="{DynamicResource Gray600}"/>
-                <Label Text="This is a test"
-                       HorizontalOptions="Center"
-                       VerticalOptions="Center"
-                       BackgroundColor="{DynamicResource Cyan300Accent}"
-                       FontSize="Large"
-                       Margin="0, 10, 0, 0"/>
+                
+                <ContentView Content="{Binding DisplayView}"/>
+                
+                <BoxView HeightRequest="1"
+                         Color="{DynamicResource Gray600}"/>
+
+                <ContentView Content="{Binding LanguageView}"/>
+
                 <BoxView HeightRequest="1"
                          Color="{DynamicResource Gray600}"/>
 
