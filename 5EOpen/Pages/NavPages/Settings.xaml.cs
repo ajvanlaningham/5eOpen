@@ -1,13 +1,16 @@
 using _5EOpen.ViewModels.NavPageViewModels;
+using LocalizationResourceManager.Maui;
 
 namespace _5EOpen.Pages.NavPages;
 
 public partial class Settings : ContentPage
 {
 	private SettingsViewModel _viewModel;
-	public Settings()
+    ILocalizationResourceManager _localizationResourceManager;
+    public Settings(ILocalizationResourceManager localizationResourceManager)
 	{
-		_viewModel = new SettingsViewModel();
+        _localizationResourceManager = localizationResourceManager;
+		_viewModel = new SettingsViewModel(_localizationResourceManager);
 		BindingContext = _viewModel;
         InitializeComponent();
     }

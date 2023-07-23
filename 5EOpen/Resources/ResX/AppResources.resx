@@ -127,6 +127,10 @@
     <value>Display</value>
     <comment>Testing</comment>
   </data>
+  <data name="SettingsPage_LanguageCard" xml:space="preserve">
+    <value>Language</value>
+    <comment>Testing</comment>
+  </data>
   <data name="ToDoInitiative" xml:space="preserve">
     <value>You are not currently in combat</value>
   </data>

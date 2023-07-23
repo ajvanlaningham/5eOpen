@@ -27,8 +27,9 @@ public static class MauiProgram
 #if DEBUG
 		builder.Logging.AddDebug();
 		builder.Services.AddTransient<MainPage>();
-		builder.Services.AddTransient<TranslateExtension>();
-		builder.Services.AddTransient<ViewModelBase>();
+		builder.Services.AddTransient<Settings>();
+		
+		
 #endif
 
 		return builder.Build();
