@@ -103,6 +103,9 @@
 	  <MauiXaml Update="Controls\Cards\MenuCard.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Pages\AppSettingsPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Pages\NavPages\Initiative.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

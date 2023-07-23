@@ -61,6 +61,33 @@ namespace _5EOpen.Resources.ResX {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Display.
+        /// </summary>
+        internal static string AppSettingsPage_DisplayCard {
+            get {
+                return ResourceManager.GetString("AppSettingsPage_DisplayCard", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Language.
+        /// </summary>
+        internal static string AppSettingsPage_LanguageCard {
+            get {
+                return ResourceManager.GetString("AppSettingsPage_LanguageCard", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to App Settings.
+        /// </summary>
+        internal static string AppSettingsPage_Title {
+            get {
+                return ResourceManager.GetString("AppSettingsPage_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Clicked {0} times.
         /// </summary>
         internal static string Counter {
@@ -79,20 +106,38 @@ namespace _5EOpen.Resources.ResX {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Display.
+        ///   Looks up a localized string similar to App Settings.
         /// </summary>
-        internal static string SettingsPage_DisplayCard {
+        internal static string SettingsPage_AppSettingsCard {
             get {
-                return ResourceManager.GetString("SettingsPage_DisplayCard", resourceCulture);
+                return ResourceManager.GetString("SettingsPage_AppSettingsCard", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Language.
+        ///   Looks up a localized string similar to My Characters.
         /// </summary>
-        internal static string SettingsPage_LanguageCard {
+        internal static string SettingsPage_CharactersCard {
             get {
-                return ResourceManager.GetString("SettingsPage_LanguageCard", resourceCulture);
+                return ResourceManager.GetString("SettingsPage_CharactersCard", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Monster Manual.
+        /// </summary>
+        internal static string SettingsPage_MonsterManualCard {
+            get {
+                return ResourceManager.GetString("SettingsPage_MonsterManualCard", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Spell Book.
+        /// </summary>
+        internal static string SettingsPage_SpellbookCard {
+            get {
+                return ResourceManager.GetString("SettingsPage_SpellbookCard", resourceCulture);
             }
         }
         

@@ -117,18 +117,38 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="AppSettingsPage_DisplayCard" xml:space="preserve">
+    <value>Display</value>
+    <comment>Testing</comment>
+  </data>
+  <data name="AppSettingsPage_LanguageCard" xml:space="preserve">
+    <value>Language</value>
+    <comment>Testing</comment>
+  </data>
+  <data name="AppSettingsPage_Title" xml:space="preserve">
+    <value>App Settings</value>
+    <comment>Testing</comment>
+  </data>
   <data name="Counter" xml:space="preserve">
     <value>Clicked {0} times</value>
   </data>
   <data name="HelloWorld" xml:space="preserve">
     <value>O brave new world, that has such monsters in 't!</value>
   </data>
-  <data name="SettingsPage_DisplayCard" xml:space="preserve">
-    <value>Display</value>
+  <data name="SettingsPage_AppSettingsCard" xml:space="preserve">
+    <value>App Settings</value>
     <comment>Testing</comment>
   </data>
-  <data name="SettingsPage_LanguageCard" xml:space="preserve">
-    <value>Language</value>
+  <data name="SettingsPage_CharactersCard" xml:space="preserve">
+    <value>My Characters</value>
+    <comment>Testing</comment>
+  </data>
+  <data name="SettingsPage_MonsterManualCard" xml:space="preserve">
+    <value>Monster Manual</value>
+    <comment>Testing</comment>
+  </data>
+  <data name="SettingsPage_SpellbookCard" xml:space="preserve">
+    <value>Spell Book</value>
     <comment>Testing</comment>
   </data>
   <data name="ToDoInitiative" xml:space="preserve">
