@@ -4,7 +4,7 @@
 Currently in development
 
 TODO:
-  1- Update Base Page functionality to include a navigation bar
+  1- ~~Update Base Page functionality to include a navigation bar~~
   2 - home page
   3 - service for open 5e queries
   4 -  initiative tracker
