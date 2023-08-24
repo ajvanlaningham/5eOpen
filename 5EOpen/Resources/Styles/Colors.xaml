@@ -40,5 +40,12 @@
     <Color x:Key="Blue100Accent">#3E8EED</Color>
     <Color x:Key="Blue200Accent">#72ACF1</Color>
     <Color x:Key="Blue300Accent">#A7CBF6</Color>
+    
+    <!--Robot logo colors-->
+    <Color x:Key="BotBgColor">#c5e8b7</Color>
+    <Color x:Key="BotBorderColor">#0a374c</Color>
+    <Color x:Key="BotColor">#ffffff</Color>
+    <Color x:Key="FaceColor">#2cf4c3</Color>
 
-</ResourceDictionary>
+    <Color x:Key="SwordColor">#cccccc</Color>
+ </ResourceDictionary>

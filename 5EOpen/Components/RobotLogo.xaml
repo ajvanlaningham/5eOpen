@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="_5EOpen.Components.RobotLogo">
+
+    <Grid
+        RowDefinitions="Auto,Auto,auto"
+        ColumnDefinitions="Auto,auto,auto"
+        Margin="10"
+        VerticalOptions="Center"
+        BackgroundColor="{StaticResource BotBgColor}">
+
+        <!-- Antenna -->
+        <StackLayout
+            Grid.Row="0"
+            Grid.Column="1"
+            HorizontalOptions="Center"
+            VerticalOptions="Start"
+            Margin="0">
+            <!-- Antenna Ball -->
+            <Ellipse
+                WidthRequest="20"
+                HeightRequest="20"
+                HorizontalOptions="Center"
+                VerticalOptions="Start"
+                Fill="{StaticResource FaceColor}"
+                Stroke="{StaticResource BotBorderColor}"
+                StrokeThickness="3"/>
+            <!-- Antenna Line -->
+            <BoxView
+                WidthRequest="2"
+                HeightRequest="10"
+                BackgroundColor="{StaticResource BotBorderColor}" />
+            <!-- Antenna Half Moon -->
+            <Grid 
+                Margin="0,-10,0,0"
+                HorizontalOptions="Center">
+                <Path Data="M0,15 C0,7 15,7 15,15 Z"
+                    Fill="{StaticResource BotColor}"
+                    Stroke="{StaticResource BotBorderColor}"
+                    StrokeThickness="3"/>
+            </Grid>
+        </StackLayout>
+
+
+        <!-- Body -->
+        <Frame 
+            Grid.Row ="1"
+            Grid.Column="1"
+            WidthRequest="130"
+            HeightRequest="115"
+            HorizontalOptions="Center"
+            VerticalOptions="Center"
+            BackgroundColor="{StaticResource BotColor}"
+            BorderColor="{StaticResource BotBorderColor}"
+            Margin="0">
+
+            <Grid
+                WidthRequest="100"
+                HorizontalOptions="Center"
+                VerticalOptions="Start"
+                RowDefinitions="Auto,Auto,Auto,*"
+                RowSpacing="5">
+
+                <!-- Third Eye -->
+                <Ellipse
+                    Margin="0,0,0,0"
+                    Grid.Row="0"
+                    WidthRequest="15"
+                    HeightRequest="15"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Start"
+                    Fill="{StaticResource FaceColor}"
+                    Stroke="{StaticResource BotBorderColor}"
+                    StrokeThickness="3"/>
+
+                <!-- Visor -->
+                <Path Grid.Row="1"
+                      WidthRequest="90"
+                      HeightRequest="45"
+                      HorizontalOptions="Center"
+                      VerticalOptions="Center" 
+                      Fill="{StaticResource FaceColor}"
+                      Stroke="{StaticResource BotBorderColor}"
+                      StrokeThickness="3">
+                      <Path.Data>
+                          <PathGeometry>
+                              <PathFigure StartPoint="0,0">
+                                  <LineSegment Point="90,0"/>
+                                  <ArcSegment Point="90,45" Size="45,22.5" SweepDirection="Clockwise"/>
+                                  <LineSegment Point="0,22.5"/>
+                                  <ArcSegment Point="0,0" Size="45,22.5" SweepDirection="Clockwise"/>
+                              </PathFigure>
+                          </PathGeometry>
+                      </Path.Data>
+                </Path>
+
+                <!-- Left Eye -->
+                <Ellipse
+                    Grid.Row="1"
+                    WidthRequest="15"
+                    HeightRequest="15"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    Fill="{StaticResource BotBorderColor}"
+                    Margin="0,0,25,0" />
+
+                <!-- Right Eye -->
+                <Ellipse
+                    Grid.Row="1"
+                    WidthRequest="15"
+                    HeightRequest="15"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    Fill="{StaticResource BotBorderColor}"
+                    Margin="25,0,0,0" />
+
+                <!-- BellyButton -->
+                <Ellipse
+                    Grid.Row="2"
+                    WidthRequest="5"
+                    HeightRequest="5"
+                    Margin="0,10,0,0"
+                    HorizontalOptions="Center"
+                    VerticalOptions="End"
+                    Fill="{StaticResource FaceColor}"
+                    Stroke="{StaticResource BotBorderColor}"
+                    StrokeThickness="3"/>
+            </Grid>
+        </Frame>
+        
+        
+        <StackLayout
+            Orientation="Horizontal"
+            Grid.Row="2"
+            Grid.Column="1"
+            Spacing="4">
+            <!-- Left Leg -->
+            <Frame 
+                WidthRequest="30"
+                HeightRequest="25"
+                HorizontalOptions="CenterAndExpand"
+                VerticalOptions="End"
+                BackgroundColor="{StaticResource BotColor}"
+                CornerRadius="15"
+                BorderColor="{StaticResource BotBorderColor}"/>
+            <!-- Right Leg -->
+            <Frame
+                WidthRequest="30"
+                HeightRequest="25"
+                HorizontalOptions="CenterAndExpand"
+                VerticalOptions="End"
+                BackgroundColor="{StaticResource BotColor}"
+                CornerRadius="15"
+                BorderColor="{StaticResource BotBorderColor}"/>
+        </StackLayout>
+    </Grid>
+   
+</ContentView>
